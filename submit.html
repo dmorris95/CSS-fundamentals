@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Recipe Submission</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intital-scale=1.0">
+    <meta name="description" content="The recipe submission page">
+    <meta name="keywords" content="Recipe, Button, Submission">
+    <meta name="author" content="Daniel Morris">
+    <link rel="stylesheet" href="recipe.css">
+</head>
+
+<body>
+    
+<header>
+    <h1>Submit Your Recipe Below</h1>
+</header>
+
+<form>
+    <div>
+        <label for="name">Recipe Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter recipe name" required>
+    </div>
+
+    <div>
+        <label for="ingredients">List Ingredients with commas separating each ingredient:</label>
+        <br>
+        <textarea name="ingredients" id="ingredients" rows="3" cols="40" placeholder="List your ingredients" required></textarea>
+    </div>
+
+    <div>
+        <label for="instructions">Please write out the instructions for your recipe:</label>
+        <br>
+        <textarea name="instructions" id="instructions" rows="5" cols="40" placeholder="Enter recipe's instructions" required></textarea>
+    </div>
+
+    <button id="submit-button" type="submit">Submit Recipe</button>
+
+</form>
+
+</body>
+
+</html>

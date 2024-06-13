@@ -1,0 +1,35 @@
+#big-button {
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+    margin: 50px;
+    background: linear-gradient(lightblue, lightyellow);
+}
+
+a:hover {
+    color: forestgreen;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+div {
+    margin: 2em;
+}
+
+label {
+    font-size: 18px;
+}
+
+textarea:focus {
+    background-color: black;
+    color: antiquewhite;
+}
+
+#submit-button {
+    margin-left: 30px;
+    background-color:darkseagreen;
+}

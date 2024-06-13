@@ -1,0 +1,44 @@
+h1 {
+    font-family: 'Arial', serif;
+    font-style: italic;
+}
+
+#ingredients-title {
+    font-family: 'Georgia', sans-serif;
+    font-size: 24px;
+}
+
+#ingredients {
+    font-size: 13px;
+    color: navy;
+}
+
+#steps-title {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 26px;
+}
+
+#steps {
+    font-family: 'Lucida Sans', sans-serif;
+    color: brown;
+    font-size: 14px;
+}
+
+header, footer {
+    background: linear-gradient(aqua, darkgrey);
+}
+
+div > p {
+    margin: 20px;
+}
+
+.recipe {
+    border: 20px solid lightseagreen;
+    padding: 10px;
+    margin: 2rem;
+    background-color: bisque;
+}
+
+a:hover {
+    color: red;
+}
